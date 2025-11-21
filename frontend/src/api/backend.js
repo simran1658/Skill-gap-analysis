@@ -1,5 +1,5 @@
 // src/api/backend.js
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://skill-gap-analysis-2e88.onrender.com";
 
 export async function getSkillGap(targetRole, currentSkills) {
   const res = await fetch(`${API_BASE}/api/skill-gap`, {
